@@ -1,3 +1,9 @@
-<div width= '100vw' align="center">
-  <ngx-gallery [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery>
+
+<div style="width: 100%; overflow: hidden;">
+  <div style="width: 50%; float: left;"> 
+    <ngx-gallery [options]="galleryOptions" [images]="galleryImages" ></ngx-gallery> 
+  </div>
+  <div style="margin-left: 620px;"> 
+    <ngx-gallery [options]="galleryOptionsRight" [images]="galleryImagesRight" ></ngx-gallery> 
+  </div>
 </div>
