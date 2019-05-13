@@ -104,11 +104,13 @@ export class AppComponent implements OnInit {
         
         this.galleryOptionsRight = [
           {
+              
               width: '600px',
               height: '400px',
               thumbnailsColumns: 3,
               thumbnailsRows: 2,
               thumbnailsOrder: NgxGalleryOrder.Row,
+              layout: NgxGalleryLayout.ThumbnailsTop,
               imageAnimation: NgxGalleryAnimation.Slide,
               imageAutoPlay: true,
               imageAutoPlayInterval: this.imageDisplayDuration,
